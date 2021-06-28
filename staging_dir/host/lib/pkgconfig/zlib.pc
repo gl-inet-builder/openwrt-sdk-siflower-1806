@@ -1,0 +1,13 @@
+prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+exec_prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+libdir=${prefix}/lib
+sharedlibdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.11
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

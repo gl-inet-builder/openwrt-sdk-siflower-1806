@@ -1,0 +1,15 @@
+#libcrypto pkg-config source file
+
+prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+exec_prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibreSSL-libcrypto
+Description: LibreSSL cryptography library
+Version: 2.8.1
+Requires:
+Conflicts:
+Libs: -L${libdir} -lcrypto
+Libs.private: -lresolv  -lpthread
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+exec_prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: expat
+Version: 2.2.6
+Description: expat XML parser
+URL: http://www.libexpat.org
+Libs: -L${libdir} -lexpat
+Cflags: -I${includedir}

@@ -1,0 +1,16 @@
+#libtls pkg-config source file
+
+prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+exec_prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: LibreSSL-libtls
+Description: Secure communications using the TLS socket protocol.
+Version: 2.8.1
+Requires:
+Requires.private: libcrypto libssl
+Conflicts:
+Libs: -L${libdir} -ltls
+Libs.private: -lresolv  -lcrypto -lssl -lpthread
+Cflags: -I${includedir}

@@ -1,0 +1,11 @@
+prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+exec_prefix=/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 1.44.4
+Requires: 
+Cflags: -I${includedir}/uuid -I${includedir}
+Libs: -L${libdir} -luuid
