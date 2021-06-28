@@ -1,4 +1,3 @@
-src-git base https://github.com/Siflower/1806_SDK.git;release
 src-git gli_pub https://github.com/gl-inet/gli-pub.git
 src-git packages https://git.openwrt.org/feed/packages.git^35e0b737ab496f5b51e80079b0d8c9b442e223f5
 src-git luci https://git.openwrt.org/project/luci.git^f64b1523447547032d5280fb0bcdde570f2ca913
