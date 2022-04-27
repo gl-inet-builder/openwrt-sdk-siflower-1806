@@ -1,4 +1,4 @@
-cmd_scripts/dtc/dtc-lexer.lex.o := gcc -Wp,-MD,scripts/dtc/.dtc-lexer.lex.o.d -O2 -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I./tools/include -Iscripts/dtc -Iscripts/dtc/libfdt -c -o scripts/dtc/dtc-lexer.lex.o scripts/dtc/dtc-lexer.lex.c
+cmd_scripts/dtc/dtc-lexer.lex.o := gcc -Wp,-MD,scripts/dtc/.dtc-lexer.lex.o.d -O2 -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I./tools/include -Iscripts/dtc -Iscripts/dtc/libfdt -c -o scripts/dtc/dtc-lexer.lex.o scripts/dtc/dtc-lexer.lex.c
 
 source_scripts/dtc/dtc-lexer.lex.o := scripts/dtc/dtc-lexer.lex.c
 
@@ -25,8 +25,8 @@ deps_scripts/dtc/dtc-lexer.lex.o := \
   /usr/include/xlocale.h \
   /usr/include/x86_64-linux-gnu/bits/string.h \
   /usr/include/x86_64-linux-gnu/bits/string2.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
   /usr/include/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
@@ -49,7 +49,7 @@ deps_scripts/dtc/dtc-lexer.lex.o := \
   /usr/include/x86_64-linux-gnu/bits/sigset.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/select2.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \

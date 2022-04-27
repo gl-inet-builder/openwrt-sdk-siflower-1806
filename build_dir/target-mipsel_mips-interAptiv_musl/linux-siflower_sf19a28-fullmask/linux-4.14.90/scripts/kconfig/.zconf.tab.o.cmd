@@ -1,4 +1,4 @@
-cmd_scripts/kconfig/zconf.tab.o := gcc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -O2 -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I/usr/include/ncursesw -DCURSES_LOC="<curses.h>"  -DNCURSES_WIDECHAR=1 -DLOCALE  -Iscripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c
+cmd_scripts/kconfig/zconf.tab.o := gcc -Wp,-MD,scripts/kconfig/.zconf.tab.o.d -O2 -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I/usr/include/ncursesw -DCURSES_LOC="<curses.h>"  -DNCURSES_WIDECHAR=1 -DLOCALE  -Iscripts/kconfig -c -o scripts/kconfig/zconf.tab.o scripts/kconfig/zconf.tab.c
 
 source_scripts/kconfig/zconf.tab.o := scripts/kconfig/zconf.tab.c
 
@@ -12,8 +12,8 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
   /usr/include/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
@@ -40,7 +40,7 @@ deps_scripts/kconfig/zconf.tab.o := \
   /usr/include/x86_64-linux-gnu/bits/sigset.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/select2.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \

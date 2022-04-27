@@ -1,4 +1,4 @@
-cmd_scripts/mod/mk_elfconfig := gcc -Wp,-MD,scripts/mod/.mk_elfconfig.d -O2 -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I./tools/include  -o scripts/mod/mk_elfconfig scripts/mod/mk_elfconfig.c -L/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/lib 
+cmd_scripts/mod/mk_elfconfig := gcc -Wp,-MD,scripts/mod/.mk_elfconfig.d -O2 -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I./tools/include  -o scripts/mod/mk_elfconfig scripts/mod/mk_elfconfig.c -L/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/lib 
 
 source_scripts/mod/mk_elfconfig := scripts/mod/mk_elfconfig.c
 
@@ -24,8 +24,8 @@ deps_scripts/mod/mk_elfconfig := \
   /usr/include/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
   /usr/include/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
@@ -38,7 +38,7 @@ deps_scripts/mod/mk_elfconfig := \
   /usr/include/x86_64-linux-gnu/bits/sigset.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/select2.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/alloca.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
@@ -49,7 +49,7 @@ deps_scripts/mod/mk_elfconfig := \
   /usr/include/x86_64-linux-gnu/bits/string.h \
   /usr/include/x86_64-linux-gnu/bits/string2.h \
   /usr/include/x86_64-linux-gnu/bits/string3.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/elf.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/elf.h \
   /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \

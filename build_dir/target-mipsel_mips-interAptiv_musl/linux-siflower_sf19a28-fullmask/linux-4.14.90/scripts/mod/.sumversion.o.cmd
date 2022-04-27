@@ -1,4 +1,4 @@
-cmd_scripts/mod/sumversion.o := gcc -Wp,-MD,scripts/mod/.sumversion.o.d -O2 -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I./tools/include  -c -o scripts/mod/sumversion.o scripts/mod/sumversion.c
+cmd_scripts/mod/sumversion.o := gcc -Wp,-MD,scripts/mod/.sumversion.o.d -O2 -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include -I./tools/include  -c -o scripts/mod/sumversion.o scripts/mod/sumversion.c
 
 source_scripts/mod/sumversion.o := scripts/mod/sumversion.c
 
@@ -20,8 +20,8 @@ deps_scripts/mod/sumversion.o := \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/time.h \
   /usr/lib/gcc/x86_64-linux-gnu/5/include/stddef.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/endian.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/byteswap.h \
   /usr/include/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
@@ -32,7 +32,7 @@ deps_scripts/mod/sumversion.o := \
   /usr/include/x86_64-linux-gnu/bits/sigset.h \
   /usr/include/x86_64-linux-gnu/bits/time.h \
   /usr/include/x86_64-linux-gnu/bits/select2.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/sys/sysmacros.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/uio.h \
   /usr/include/x86_64-linux-gnu/bits/socket.h \
@@ -95,7 +95,7 @@ deps_scripts/mod/sumversion.o := \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/getopt.h \
   /usr/include/x86_64-linux-gnu/bits/unistd.h \
-  /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/elf.h \
+  /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include/elf.h \
   scripts/mod/elfconfig.h \
 
 scripts/mod/sumversion.o: $(deps_scripts/mod/sumversion.o)

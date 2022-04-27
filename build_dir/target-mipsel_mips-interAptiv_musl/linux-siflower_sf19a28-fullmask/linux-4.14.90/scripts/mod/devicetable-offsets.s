@@ -5,7 +5,7 @@
 	.module	oddspreg
 
  # -G value = 0, Arch = mips32r2, ISA = 33
- # GNU C89 (OpenWrt GCC 7.4.0 r0-d1dbc64) version 7.4.0 (mipsel-openwrt-linux-musl)
+ # GNU C89 (OpenWrt GCC 7.4.0 r0-fcb86f1) version 7.4.0 (mipsel-openwrt-linux-musl)
  #	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version none
  # GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
  # options passed:  -nostdinc -I ./arch/mips/include
@@ -15,12 +15,12 @@
  # -I ./arch/mips/include/asm/mach-siflower
  # -I ./arch/mips/include/asm/mach-siflower/
  # -I ./arch/mips/include/asm/mach-generic
- # -idirafter /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/target-mipsel_mips-interAptiv_musl/usr/include
+ # -idirafter /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/target-mipsel_mips-interAptiv_musl/usr/include
  # -D __KERNEL__ -D VMLINUX_LOAD_ADDRESS=0xffffffff80100000 -D DATAOFFSET=0
  # -D GAS_HAS_SET_HARDFLOAT -D TOOLCHAIN_SUPPORTS_VIRT -D CC_HAVE_ASM_GOTO
  # -D KBUILD_BASENAME="devicetable_offsets"
  # -D KBUILD_MODNAME="devicetable_offsets"
- # -isystem /work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/toolchain-mipsel_mips-interAptiv_gcc-7.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/7.4.0/include
+ # -isystem /work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/toolchain-mipsel_mips-interAptiv_gcc-7.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/7.4.0/include
  # -include ./include/linux/kconfig.h
  # -MD scripts/mod/.devicetable-offsets.s.d
  # scripts/mod/devicetable-offsets.c -G 0 -mel -mno-check-zero-division
@@ -1413,9 +1413,6 @@ $LASF14:
 	.ascii	"uuid_null\000"
 $LASF9:
 	.ascii	"char\000"
-$LASF19:
-	.ascii	"/work/work/gl-infra-builder/openwrt-18.06/siflower/linux"
-	.ascii	"-4.14.90-dev/linux-4.14.90\000"
 $LASF7:
 	.ascii	"long int\000"
 $LASF16:
@@ -1430,5 +1427,8 @@ $LASF18:
 	.ascii	"scripts/mod/devicetable-offsets.c\000"
 $LASF2:
 	.ascii	"short int\000"
-	.ident	"GCC: (OpenWrt GCC 7.4.0 r0-d1dbc64) 7.4.0"
+$LASF19:
+	.ascii	"/work/work/siflower/gl-infra-builder/openwrt-18.06/siflo"
+	.ascii	"wer/linux-4.14.90-dev/linux-4.14.90\000"
+	.ident	"GCC: (OpenWrt GCC 7.4.0 r0-fcb86f1) 7.4.0"
 	.section	.note.GNU-stack,"",@progbits

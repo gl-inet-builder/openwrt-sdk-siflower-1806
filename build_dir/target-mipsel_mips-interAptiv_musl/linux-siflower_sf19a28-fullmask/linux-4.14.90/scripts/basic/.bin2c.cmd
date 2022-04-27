@@ -1,4 +1,4 @@
-cmd_scripts/basic/bin2c := gcc -Wp,-MD,scripts/basic/.bin2c.d -O2 -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -o scripts/basic/bin2c scripts/basic/bin2c.c -L/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/lib 
+cmd_scripts/basic/bin2c := gcc -Wp,-MD,scripts/basic/.bin2c.d -O2 -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -Wall -Wmissing-prototypes -Wstrict-prototypes   -I/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/include  -o scripts/basic/bin2c scripts/basic/bin2c.c -L/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/lib 
 
 source_scripts/basic/bin2c := scripts/basic/bin2c.c
 

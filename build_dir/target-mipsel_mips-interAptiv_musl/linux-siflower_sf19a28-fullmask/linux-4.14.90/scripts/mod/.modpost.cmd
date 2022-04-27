@@ -1,1 +1,1 @@
-cmd_scripts/mod/modpost := gcc  -o scripts/mod/modpost scripts/mod/modpost.o scripts/mod/file2alias.o scripts/mod/sumversion.o -L/work/work/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/lib 
+cmd_scripts/mod/modpost := gcc  -o scripts/mod/modpost scripts/mod/modpost.o scripts/mod/file2alias.o scripts/mod/sumversion.o -L/work/work/siflower/gl-infra-builder/openwrt-18.06/siflower/openwrt-18.06/staging_dir/host/lib 
